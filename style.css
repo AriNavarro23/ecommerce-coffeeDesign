@@ -48,6 +48,22 @@ a{
     margin: 40px 0;
 }
 
+/* Button banner */
+button.normal{
+    font-size: 14px;
+    font-weight: 600;
+    padding: 10px 20px;
+    margin: 10px;
+    color: #000;
+    background-color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    transition: 0.2s;
+    opacity: 0.8;
+}
+
 body{
     width: 100%;
 }
@@ -264,6 +280,8 @@ body{
     right: 10px;
 }
 
+
+/*Banner*/
 #banner{
     display: flex;
     flex-direction: column;
@@ -290,10 +308,14 @@ body{
     padding: 1px 10px;
     border-radius: 10px;
     margin: 5px;
-    opacity: 0.9;
+    opacity: 0.8;
 
 }
 
 #banner h2 span{
     color: #088178;
+}
+
+#banner button:hover{
+    background: #088178;
 }

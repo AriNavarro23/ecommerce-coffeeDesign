@@ -320,11 +320,17 @@ body{
     background: #088178;
 }
 
+
+
+
+
+
+/* SM BANNER */
+
 #sm-banner{
     display: flex;
     justify-content: space-between;
 }
-
 
 #sm-banner .banner-box{
     display: flex;
@@ -347,11 +353,9 @@ body{
     margin-left: 10px;
 }
 
-
 #sm-banner .box-2{
     background-image: url(./img/coffeeLove.jpg);
 }
-
 
 #sm-banner .banner-box h4{
     font-size: 18px;    
@@ -384,4 +388,101 @@ body{
     background-color: #088178;
     color: #fff;
 }
+
+
+
+
+
+/* BANNER 3 */
+
+#banner3{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 80px;
+}
+
+#banner3 .banner-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background-image: url(./img/coffeeRed.jpg);
+    min-width: 30%;
+    height: 30vh;
+    background-size: cover;
+    background-position: center;
+    padding: 0 80px;
+    margin-bottom: 20px;
+}
+
+#banner3 .banner-box2{
+    background-image: url(./img/coffeeGold.jpg)
+}
+
+#banner3 .banner-box3{
+    background-image: url(./img/coffeeWhite.jpg);
+}
+
+#banner3 h2{
+    color: #fff ;
+    font-weight: 800;
+    font-size: 25px;
+}
+
+#banner3 h3{
+    color:black;
+
+}
+
+#newsletter{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    background-image: url(./img/newsletterCoffee2.jpg);
+    background-repeat: no-repeat;
+    background-position: 20% 55%;
+    background-size: cover;
+}
+
+#newsletter h4{
+    color: #fff;
+    font-weight: 700;
+}
+
+#newsletter p{
+    color: #fff;
+    font-weight: 600;
+}
+
+#newsletter p span{
+    color: #fff;
+    background-color: #ffbd27;
+    opacity: 0.9.5;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+#newsletter .form{
+    display: flex;
+    width: 40%;
+}
+
+#newsletter input{
+    height: 3.125rem;
+    padding: 0 1.25rem;
+    font-size: 14px;
+    width: 100%;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    outline: none;
+}
+
+#newsletter button{
+    background-color: #088178;
+    color: #fff;
+    white-space: nowrap;
+}
+
 

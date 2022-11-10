@@ -573,6 +573,9 @@ footer .copyright{
     text-align: center;
 }
 
+.img{
+    height: 40px;
+}
 
 
 /* Media Query */
@@ -630,11 +633,37 @@ footer .copyright{
     }
 
     #hero{
-        height: 70vh;
+        align-items: center;
+        height: 85vh;
         padding: 0 80px;
-        background-position: top 30% right 30%;
+        background-position: top 50% right 30%;
+        background-size: cover;
     }
 
+    #hero h4 {
+        font-size: 17px;
+    }
+
+    #hero h2 {
+        font-size: 30px;
+        line-height: 54px;
+    }
+    
+    #hero h1 {
+        font-size: 36px;
+        line-height: 55px;
+    }
+
+    #hero p {
+        font-weight: 700;
+        color: black;
+        font-size: 13px;
+        margin: 5px 0 5px 0;
+    }
+
+    #hero button {
+        padding: 8px 45px 8px 45px;
+    }
     #feature {
         justify-content: center;
     }
@@ -652,7 +681,7 @@ footer .copyright{
     }
 
     #banner {
-        height: 20vh;
+        height: 35vh;
     }
 
     #sm-banner {
@@ -675,6 +704,24 @@ footer .copyright{
 
     #newsletter .form {
         width: 70%;
+    }
+
+    .info{
+        flex-direction: column;
+    }
+    
+    footer .col{
+        align-items: center;
+    }
+
+    .follow{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img{
+        height: 30px;
     }
 
 }

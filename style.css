@@ -600,7 +600,7 @@ footer .copyright{
         transition: 0.3s;
     }
 
-    #navbar .active{
+    #navbar.active{
         right: 0px;
     }
 
@@ -749,5 +749,21 @@ footer .copyright{
     .img{
         height: 30px;
     }
+}
 
+@media (max-width: 477px){
+    #banner h2{
+        font-size: 25px;
+        line-height: 30px;
+    }
+    #banner3 .banner-box h3{
+        font-size: 11px;
+    }
+
+    #newsletter .form{
+        width: 100%;
+    }
+    .newsText p {
+        font-size: 10px;
+    }
 }

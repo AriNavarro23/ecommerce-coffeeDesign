@@ -3,7 +3,7 @@ const close = document.getElementById('close');
 const nav = document.getElementById('navbar');
 const productsContainer = document.getElementById('product1');
 
-
+/* Hamburguer menu */
 
 if ( bar ) {
     bar.addEventListener('click', () => {
@@ -15,6 +15,25 @@ if ( close ) {
     close.addEventListener('click', () => {
         nav.classList.remove('active');
     })
+}
+
+
+/* show small products */
+
+const MainImg = document.getElementById('MainImg');
+const smallimg = document.getElementsByClassName('small-img');
+
+smalling[0].onclick = function(){
+    MainImg.src = smalling[0].src;
+}
+smalling[1].onclick = function(){
+    MainImg.src = smalling[1].src;
+}
+smalling[2].onclick = function(){
+    MainImg.src = smalling[2].src;
+}
+smalling[3].onclick = function(){
+    MainImg.src = smalling[3].src;
 }
 
 //Show products 

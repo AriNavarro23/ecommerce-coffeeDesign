@@ -694,6 +694,16 @@ footer .copyright{
 
 
 
+/* Blog Page */
+
+#page-header .blog-header{
+    background-image: url(/img/bannerCoffee.jpg);
+}
+
+
+
+
+
 
 
 /* ---------------------- MEDIA QUERY ------------------------------ */
